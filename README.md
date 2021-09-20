@@ -37,6 +37,6 @@ mvn clean verify -Dcucumber.options="--tags @actualizar-informacion"  - este com
 mvn clean verify -Dcucumber.options="--tags @pedido-de-productos"  - este comando solo ejecuta el escenario del pedido de productos
 
 Ninguna de las pruebas necesita ajustar Data para su ejecucion, dado que se hicieron de tal forma que sea auto suficiente para ello.
-
+Al final de las ejecucion se crea una carpeta llamada target en la cual estan las envidencias de la ejecucion, para ver estas evidencias ingresar de la siguiente forma target/site/serenity/index.html
 Autor
 Carlos Julio Piragua Perez - *Automatizador - [carlosjuliopiraguaperez@gmail.com]
